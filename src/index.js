@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Greeting, UserCard } from "./Greeting";
-import Product, { Navbar } from "./Product";
-import { Button } from "./Button";
-import {TaskCard} from "./Task"
-import {Posts} from "./Posts"
+// import { Greeting, UserCard } from "./Greeting";
+// import Product, { Navbar } from "./Product";
+// import { Button } from "./Button";
+// import {TaskCard} from "./Task"
+import { Posts } from "./Posts";
 
 // Se importan las librerias necesarias, están instaladas en el proyecto y se muestran en el package.json
 
@@ -17,12 +17,40 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //   console.log(e.target.value);
 // }
 
+// const users = [
+//   {
+//     id: 1,
+//     name: "Oscar",
+//     image: "https://robohash.org/2806:2f0:91c0:6aee:e0a0:c84e:836f:ae38.png",
+//   },
+//   {
+//     id: 2,
+//     name: "Leonardo",
+//     image: "https://robohash.org/void",
+//   },
+// ];
+
 // Renderizar en la pagina
 // Para interpretar una funcion dentro de HTML
 root.render(
   <>
 
-    <Posts/>
+    
+
+
+
+    {/* Cuando se necesiten mostrar multiples elementos o se van generando   */}
+
+    {/* {users.map((user, i) => {
+      return (
+        <div key={i}>
+          <h1>{user.name}</h1>
+          <img src={user.image} alt="A robot" />
+        </div>
+      );
+    })} */}
+
+    {/* <Posts/> */}
 
     {/* <TaskCard ready={true}/>
     <Button text="Saludar"/>
@@ -43,7 +71,6 @@ root.render(
     <Button text="Pay"/>
     <Button text="Go to"/>
     <Button text="Idk" name='Joe'/> */}
-
 
     {/* <UserCard
       name="Oscar Bucio"
@@ -66,7 +93,6 @@ root.render(
         alert("Hello");
       }}
     /> */}
-
   </>
 );
 

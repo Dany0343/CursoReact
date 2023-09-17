@@ -1,3 +1,5 @@
+import { VscGlobe, } from 'react-icons/vsc'
+
 // Con sintaxis de función flecha
 export const Posts = () =>  {
 
@@ -8,6 +10,7 @@ export const Posts = () =>  {
                 .then(data => console.log(data))
                 .catch(error => console.error(error))
         }}>
+            <VscGlobe/>
             Traer datos
         </button>
     )
