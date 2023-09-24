@@ -1,10 +1,10 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 // import { Greeting, UserCard } from "./Greeting";
 // import Product, { Navbar } from "./Product";
 // import { Button } from "./Button";
 // import {TaskCard} from "./Task"
-import { Posts } from "./Posts";
+// import { Posts } from "./Posts";
+import {Counter} from "./Counter"
 
 // Se importan las librerias necesarias, están instaladas en el proyecto y se muestran en el package.json
 
@@ -35,9 +35,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
 
+    <Counter/>
     
-
-
 
     {/* Cuando se necesiten mostrar multiples elementos o se van generando   */}
 
